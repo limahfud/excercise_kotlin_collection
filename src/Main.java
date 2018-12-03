@@ -21,6 +21,11 @@
 //}
 
 
+import pertemuan4.Cleaner;
+import pertemuan4.CleanerA;
+import pertemuan4.CleanerB1;
+import pertemuan4.Dog;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -138,8 +143,20 @@ class Mobil {
 
 public class Main {
 
-
     public static void main(String[] args) {
+
+        Cleaner cleanerPertama = new CleanerA();
+
+        Cleaner cleanerKedua = new CleanerB1();
+
+        Dog dog = new Dog();
+
+//        dog.clean(cleanerKedua);
+
+    }
+
+
+    public static void mains(String[] args) {
 
         List<Mobil> listMobil = new ArrayList<Mobil>();
 

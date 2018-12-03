@@ -1,22 +1,22 @@
 import java.util.ArrayList
 
-fun main(args: Array<String>) {
-    val listMobil = ArrayList<Mobil>()
-
-
-    listMobil.add(Mobil(2001, "white", 4))
-    listMobil.add(Mobil(2002, "blue", 2))
-    listMobil.add(Mobil(2003, "red", 6))
-
-    listMobil.sortWith(Comparator { mobil1, mobil2 ->
-        val a = mobil1.door + mobil2.door
-        if (a % 2 == 1) {
-            mobil1.year - mobil2.year
-        } else {
-            mobil1.year - mobil2.year
-        }
-    })
-}
+//fun main(args: Array<String>) {
+//    val listMobil = ArrayList<Mobil>()
+//
+//
+//    listMobil.add(Mobil(2001, "white", 4))
+//    listMobil.add(Mobil(2002, "blue", 2))
+//    listMobil.add(Mobil(2003, "red", 6))
+//
+//    listMobil.sortWith(Comparator { mobil1, mobil2 ->
+//        val a = mobil1.door + mobil2.door
+//        if (a % 2 == 1) {
+//            mobil1.year - mobil2.year
+//        } else {
+//            mobil1.year - mobil2.year
+//        }
+//    })
+//}
 
 //private fun mobilDariBackendServer(): Mobil? {
 ////    val mobilA = Mobil(2000, )
